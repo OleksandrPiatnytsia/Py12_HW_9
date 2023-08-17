@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hw-9"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr <115171014+OleksandrPiatnytsia@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hw_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
